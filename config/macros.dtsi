@@ -1,8 +1,14 @@
+macro_captureregion: macro_captureregion{
+compatible = "zmk,behavior-macro";
+label = "macro_captureregion";
+#binding-cells = <0>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp PRINTSCREEN>;
+};
 macro_capturegif: macro_capturegif{
 compatible = "zmk,behavior-macro";
 label = "macro_capturegif";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_SHIFT>, <&kp PRINTSCREEN>;
+bindings = <&sk LEFT_SHIFT>, <&kp PRINTSCREEN>;
 };
 macro_unity_play: macro_unity_play{
 compatible = "zmk,behavior-macro";
