@@ -1,3 +1,27 @@
+macro_capture-gif: macro_capture-gif{
+compatible = "zmk,behavior-macro";
+label = "macro_capture-gif";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp PRINTSCREEN>;
+};
+macro_share-x-capture: macro_share-x-capture{
+compatible = "zmk,behavior-macro";
+label = "macro_share-x-capture";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp PRINTSCREEN>;
+};
+macro_unity_play: macro_unity_play{
+compatible = "zmk,behavior-macro";
+label = "macro_unity_play";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp P>;
+};
+macro_pause: macro_pause{
+compatible = "zmk,behavior-macro";
+label = "macro_pause";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp P>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
