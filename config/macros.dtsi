@@ -1,3 +1,15 @@
+macro_homeosx: macro_homeosx{
+compatible = "zmk,behavior-macro";
+label = "macro_homeosx";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LEFT>;
+};
+macro_endosx: macro_endosx{
+compatible = "zmk,behavior-macro";
+label = "macro_endosx";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp RIGHT>;
+};
 macro_captureregion: macro_captureregion{
 compatible = "zmk,behavior-macro";
 label = "macro_captureregion";
